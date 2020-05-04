@@ -1,0 +1,25 @@
+{
+  "name": "creativclicks/privacy",
+  "description": "Standard interfaces for privacy handling.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "creativ clicks GmbH",
+      "homepage": "https://creativclicks.de"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Creativclicks\\Privacy\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
